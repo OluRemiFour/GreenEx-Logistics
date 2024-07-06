@@ -22,8 +22,8 @@ function Board() {
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 544 512"
-            class="svg-inline--fa fa-chart-pie fa-w-17 fa-7x"
-            class="w-6 hover:fill-white"
+            class="svg-inline--fa fa-chart-pie fa-w-17 fa-7x w-6 hover:fill-white"
+            // class="w-6 hover:fill-white"
           >
             <g class="fa-group">
               <path
@@ -54,8 +54,8 @@ function Board() {
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
-            class="svg-inline--fa fa-box-alt fa-w-14 fa-7x"
-            class="w-5"
+            class="svg-inline--fa w-5 fa-box-alt fa-w-14 fa-7x"
+            // class=""
           >
             <g class="fa-group">
               <path
@@ -86,8 +86,8 @@ function Board() {
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
-            class="svg-inline--fa fa-clock fa-w-16 fa-9x"
-            class="w-6 hover:fill-white"
+            class="svg-inline--fa w-6 fa-clock fa-w-16 fa-9x"
+            // class="w-6 hover:fill-white"
           >
             <g class="fa-group">
               <path
@@ -117,8 +117,8 @@ function Board() {
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
-            class="svg-inline--fa fa-history fa-w-16 fa-7x"
-            class="w-5 hover:fill-white"
+            class="svg-inline--fa w-6 fa-history fa-w-16 fa-7x"
+            // class="w-5 hover:fill-white"
           >
             <g class="fa-group">
               <path
@@ -148,8 +148,8 @@ function Board() {
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
-            class="svg-inline--fa fa-wallet fa-w-16 fa-7x"
-            class="w-5 hover:fill-white"
+            class="svg-inline--fa w-5 fa-wallet fa-w-16 fa-7x"
+            // class="w-5 hover:fill-white"
           >
             <g class="fa-group">
               <path
@@ -179,8 +179,8 @@ function Board() {
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 576 512"
-            class="svg-inline--fa fa-book-open fa-w-18 fa-9x"
-            class="w-5 hover:fill-white"
+            class="svg-inline--fa w-5 fa-book-open fa-w-18 fa-9x"
+            // class="w-5 hover:fill-white"
           >
             <g class="fa-group">
               <path
@@ -210,8 +210,8 @@ function Board() {
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
-            class="svg-inline--fa fa-user-headset fa-w-14 fa-9x"
-            class="w-5 hover:fill-white"
+            class="svg-inline--fa w-5 fa-user-headset fa-w-14 fa-9x"
+            // class="w-5 hover:fill-white"
           >
             <g class="fa-group">
               <path
@@ -241,8 +241,8 @@ function Board() {
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
-            class="svg-inline--fa fa-cog fa-w-16 fa-9x"
-            class="w-5 hover:fill-white"
+            class="svg-inline--fa w-5 fa-cog fa-w-16 fa-9x"
+            // class="w-5 hover:fill-white"
           >
             <g class="fa-group">
               <path
@@ -272,8 +272,8 @@ function Board() {
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
-            class="svg-inline--fa fa-sign-out fa-w-16 fa-9x"
-            class="w-5 hover:fill-white"
+            class="svg-inline--fa w-5 fa-sign-out fa-w-16 fa-9x"
+            // class="w-5 hover:fill-white"
           >
             <g class="fa-group">
               <path
