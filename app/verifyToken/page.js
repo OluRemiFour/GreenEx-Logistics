@@ -1,13 +1,11 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
-import React from "react";
+import React, { Suspense } from "react";
 
-function Page() {
+function VerifyTokenComponent() {
   const searchParams = useSearchParams();
   const token = searchParams.get("verify_token");
-
-  console.log(token);
 
   const baseUrl = process.env.NEXT_PUBLIC_API_URL;
   async function sendToken() {
@@ -20,8 +18,15 @@ function Page() {
     });
   }
 
-  return <div>Page</div>;
+  return <div>Verifying...</div>;
 }
 
-export default Page;
+export default function Page() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <VerifyTokenComponent />
+    </Suspense>
+  );
+}
+
 // base_url/api/auth/verify-email/?{token}
