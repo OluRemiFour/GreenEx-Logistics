@@ -37,6 +37,12 @@ function Page() {
         <Board />
       </div>
 
+      {!openNavSmall && (
+        <div className="fixed h-full z-50">
+          <Board />
+        </div>
+      )}
+
       <div className="bg-slate-200 min-h-screen lg:min-h-screen md:min-h-full">
         <div className="flex flex-col bg-slate-200">
           <div className="hidden md:ml-60 bg-white py-8 px-8 shadow-sm md:flex items-center border-b-2 justify-between">

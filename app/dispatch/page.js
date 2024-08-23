@@ -242,6 +242,13 @@ function Page() {
       >
         <Board />
       </div>
+
+      {!openNavSmall && (
+        <div className="fixed h-full z-50">
+          <Board />
+        </div>
+      )}
+
       <div className="bg-slate-200 md:ml-60 lg:min-h-screen md:min-h-full">
         <div className="bg-slate-200 h-full min-h-full lg:min-h-screen md:min-h-full">
           <div className="bg-slate-200 min-h-full overflow-scroll">
@@ -418,7 +425,7 @@ function Page() {
                 </div>
                 <Link
                   href="/"
-                  className="bg-[#66cc66] py-4 text-sm px-20 md:mx-6 mx-auto font-semibold w-fit rounded-md border-[#66cc66] transition-all duration-500 text-white hover:bg-transparent hover:text-black hover:border-black border-[1px] hover:translate-x-1"
+                  className="bg-[#66cc66] py-4 text-sm px-20 flex mx-auto font-semibold w-fit rounded-md border-[#66cc66] transition-all duration-500 text-white hover:bg-transparent hover:text-black hover:border-black border-[1px] hover:translate-x-1"
                 >
                   Proceed
                 </Link>

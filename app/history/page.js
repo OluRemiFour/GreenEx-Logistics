@@ -35,6 +35,12 @@ function Page() {
       >
         <Board />
       </div>
+
+      {!openNavSmall && (
+        <div className="fixed h-full z-50">
+          <Board />
+        </div>
+      )}
       <div className="bg-slate-200 h-dvh">
         <div className="bg-slate-200">
           {" "}

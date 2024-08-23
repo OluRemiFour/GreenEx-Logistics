@@ -85,7 +85,7 @@ const Welcome = () => {
               : "-translate-x-full transition-transform duration-700"
           }`}
         ></div>
-        <div className="grid md:grid-cols-2 md:ml-48 mt-20 mb-4 md:my-8 gap-3 md:px-6 lg:px-[16rem]">
+        <div className="grid md:grid-cols-2 md:ml-48 mt-20 mb-4 md:my-8 gap-3 md:px-6 lg:px-[12rem]">
           <div className="text-center py-6 cursor-pointer transition-all duration-500 hover:scale-105 rounded-md bg-white mx-1 my-1">
             <h1 className="font-medium py-4">
               <a href="dispatch">Create New Dispatch</a>

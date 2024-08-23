@@ -36,6 +36,13 @@ function PendingOrder() {
       >
         <Board />
       </div>
+
+      {!openNavSmall && (
+        <div className="fixed h-full z-50">
+          <Board />
+        </div>
+      )}
+
       <div className="bg-[#eef0f8] h-fit">
         <div className="bg-[#eef0f8] h-dvh overflow-auto">
           <div className="hidden md:ml-56 bg-white py-8 px-8 shadow-sm md:flex items-center border-b-2 justify-between">

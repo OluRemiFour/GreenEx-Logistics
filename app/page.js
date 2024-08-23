@@ -5,6 +5,7 @@ import Link from "next/link";
 import Navigation from "./_component/Navigation";
 import { useEffect, useState } from "react";
 
+
 export default function Page() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [carouselData, setCarouselData] = useState([

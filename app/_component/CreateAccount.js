@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-
+// import { useForm } from "react-hook-form";
 function CreateAccount() {
   return (
     <div>
@@ -8,7 +8,7 @@ function CreateAccount() {
         <h1 className="mx-auto flex mt-12 md:mt-auto md:justify-center mb-8 font-semibold text-2xl">
           Create Account
         </h1>
-        <form>
+        <form onSubmit={handleSubmit}>
           <div className="text-[12px] font-medium my-8 target:text-red-500">
             <label className="mt-[-.6rem] bg-white px-2 absolute ml-8">
               First Name
@@ -16,6 +16,7 @@ function CreateAccount() {
             <input
               type="text"
               required
+              {...register}
               className="border border-black outline-none rounded-md p-4 md:w-[30rem] w-[24rem]"
             />{" "}
           </div>
@@ -90,12 +91,14 @@ function CreateAccount() {
             </label>
           </div>
 
-          <Link
-            href="/"
-            className="bg-[#66cc66] py-[.8rem] text-sm font-medium px-10 md:w-[30rem] w-[24rem] flex md:mx-auto justify-center rounded-md border-[#66cc66] transition-all duration-500 text-white hover:bg-transparent hover:text-black hover:border-black border-[1px] hover:translate-x-1"
-          >
-            Create Account
-          </Link>
+          <button>
+            <Link
+              // href="/"
+              className="bg-[#66cc66] py-[.8rem] text-sm font-medium px-10 md:w-[30rem] w-[24rem] flex md:mx-auto justify-center rounded-md border-[#66cc66] transition-all duration-500 text-white hover:bg-transparent hover:text-black hover:border-black border-[1px] hover:translate-x-1"
+            >
+              Create Account
+            </Link>
+          </button>
 
           <div className="flex space-x-2 my-4 mx-auto justify-center">
             <p className="text-[#141414] text-sm font-semibold">
