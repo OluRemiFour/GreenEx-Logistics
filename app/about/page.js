@@ -81,7 +81,7 @@ function Page() {
               onClick={!openNav ? undefined : handleNavbar}
               className={`${
                 openNav
-                  ? "translate-x-0 fixed  transition-transform duration-700 h-dvh bg-black z-10 inset-0 bg-opacity-75"
+                  ? "translate-x-0 fixed transition-transform duration-700 h-dvh bg-black z-10 inset-0 bg-opacity-75"
                   : "-translate-x-full transition-transform duration-700"
               }`}
             ></div>

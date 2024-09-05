@@ -21,6 +21,11 @@ export default function Page() {
   const [acceptTerms, setAcceptTerms] = useState(true);
   // const [address, setAddress] = useState("");
 
+  const [loginData, setLoginData] = useState({
+    email: "test@example.com",
+    password: "123456Test",
+  });
+
   async function onSubmit(data) {
     const baseUrl = process.env.NEXT_PUBLIC_API_URL;
     console.log("got this", data);
@@ -129,6 +134,7 @@ export default function Page() {
                   <input
                     type="text"
                     required
+                    value={loginData.email}
                     className="border border-black outline-none rounded-md p-4 lg:w-[30rem] w-[22rem]"
                   />{" "}
                 </div>
@@ -139,6 +145,7 @@ export default function Page() {
                   <input
                     type="password"
                     required
+                    value={loginData.password}
                     className="border border-black outline-none rounded-md p-4 lg:w-[30rem] w-[22rem]"
                   />{" "}
                   <Link
